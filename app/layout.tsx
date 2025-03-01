@@ -39,7 +39,7 @@ export default function RootLayout({
         <ThemeProvider attribute='class'>
           <TooltipProvider>
             <div className='flex min-h-screen flex-col'>
-              <Header />
+              
               <main className='flex flex-1 flex-col'>{children}</main>
             </div>
           </TooltipProvider>
